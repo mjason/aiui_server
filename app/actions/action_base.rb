@@ -19,8 +19,10 @@ class ActionBase
     @service_name ||= msg["intent"]["service"]
   end
 
+  ##
+  # 验证方法，子类重写
   def valid?
-    raise "必须继承覆写"
+    raise "name is overwrite"
   end
 
   def directive
