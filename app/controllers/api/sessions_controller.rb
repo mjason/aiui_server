@@ -1,7 +1,6 @@
 class Api::SessionsController < ApplicationController
   def show
-    token = "a8c63198f2f0b3ad"
-    render body: Digest::SHA1.hexdigest(token), status: :ok
+    render body: Digest::SHA1.hexdigest(AIUI.token), status: :ok
   end
 
   def create

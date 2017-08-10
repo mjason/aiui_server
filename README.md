@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+讯飞AIUI rails 后处理例子
 
-Things you may want to cover:
+## 功能
 
-* Ruby version
+将AIUI的元数据，转换成命令式，降低客户端的处理成本
 
-* System dependencies
+## 使用
 
-* Configuration
+1. 打开 config/initializers/aiui.rb
+2. 填入的token
+3. 到 AIUI 上层设置里的回调地址
 
-* Database creation
+## TODO
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- 公开客户端SDK
